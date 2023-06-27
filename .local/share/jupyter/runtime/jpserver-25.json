@@ -1,0 +1,13 @@
+{
+  "base_url": "/binder/jupyter/user/cquiles11-py37_r353-ukxyqvah/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 25,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "vbu91A5YSlymkB8eljb7DQ",
+  "url": "http://jupyter-cquiles11-2dpy37-5fr353-2dukxyqvah:8888/binder/jupyter/user/cquiles11-py37_r353-ukxyqvah/",
+  "version": "1.23.6"
+}
