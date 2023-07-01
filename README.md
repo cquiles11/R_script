@@ -1,12 +1,12 @@
 # Conda environment with environment.yml
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression/r40_py311)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression.git/HEAD)
 
 A Binder-compatible repo with an `environment.yml` file.
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-[https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression/r40_py311](https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression/r40_py311)
+[https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression/HEAD](https://mybinder.org/v2/gh/cquiles11/Python_LinearRegression/HEAD)
 
 ## Notes
 The `environment.yml` file should list all Python libraries on which your notebooks
