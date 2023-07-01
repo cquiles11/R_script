@@ -63,3 +63,134 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2023-06-27 14:39:35.609 ServerApp] Saving file at /environment.yml
 [I 2023-06-27 14:41:35.875 ServerApp] Saving file at /environment.yml
 [I 2023-06-27 14:43:32.691 ServerApp] Saving file at /environment.yml
+Launching jupyter-lab
+[I 2023-07-01 18:24:08.090 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-07-01 18:24:08.091 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2023-07-01 18:24:08.099 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-07-01 18:24:08.099 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-07-01 18:24:08.106 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-07-01 18:24:08.109 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.109 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.109 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.109 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.109 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-01 18:24:08.114 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-07-01 18:24:08.118 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-01 18:24:08.118 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-01 18:24:08.118 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.118 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-01 18:24:08.118 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-01 18:24:08.123 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-07-01 18:24:08.808 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-07-01 18:24:08.860 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-01 18:24:08.861 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-07-01 18:24:08.863 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-07-01 18:24:08.864 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-07-01 18:24:08.864 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2023-07-01 18:24:08.864 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2023-07-01 18:24:08.867 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-07-01 18:24:08.867 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-07-01 18:24:08.868 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-07-01 18:24:08.889 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-07-01 18:24:08.891 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-07-01 18:24:08.892 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.11/site-packages/jupyterlab
+[I 2023-07-01 18:24:08.892 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-07-01 18:24:08.901 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-07-01 18:24:08.908 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-07-01 18:24:08.908 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-07-01 18:24:08.908 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-07-01 18:24:08.908 ServerApp] Jupyter Server 1.23.6 is running at:
+[I 2023-07-01 18:24:08.908 ServerApp] http://jupyter-cquiles11-2dpytho-2dinearregression-2dq58m3dgm:8888/binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/lab?token=...
+[I 2023-07-01 18:24:08.908 ServerApp]  or http://127.0.0.1:8888/binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/lab?token=...
+[I 2023-07-01 18:24:08.909 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-07-01 18:24:08.914 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-07-01 18:24:11.065 ServerApp] 302 GET /binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/ (10.244.1.42) 1.61ms
+[I 2023-07-01 18:24:11.681 ServerApp] 302 GET /binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/?token=[secret] (75.118.33.162) 1.43ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-07-01 18:24:16.952 ServerApp] 404 GET /binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/api/me?1688235856310 (75.118.33.162) 36.59ms referer=https://notebooks.gesis.org/binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/lab
+[I 2023-07-01 18:24:23.912 ServerApp] New terminal with automatic name: 1
+[I 2023-07-01 18:24:23.985 LabApp] Build is up to date
+[I 2023-07-01 18:24:36.813 ServerApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 2023-07-01 18:24:36.814 ServerApp] Notebook Untitled.ipynb is not trusted
+[I 2023-07-01 18:24:38.253 ServerApp] Kernel started: 8dd0ad06-a12e-4e57-8212-34797fccfb88
+[I 2023-07-01 18:24:38.253 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2023-07-01 18:24:38.253 ServerApp] Culling kernels even with connected clients
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+/srv/conda/envs/notebook/lib/python3.11/json/encoder.py:258: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2023-07-01 18:24:39.266 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8348cc9650>
+[I 2023-07-01 18:24:39.729 ServerApp] Starting buffering for 8dd0ad06-a12e-4e57-8212-34797fccfb88:891d789f-ce2f-4dff-8cd9-9a197bb5e722
+[I 2023-07-01 18:24:43.834 ServerApp] Kernel shutdown: 8dd0ad06-a12e-4e57-8212-34797fccfb88
+[W 2023-07-01 18:24:44.354 ServerApp] delete /Untitled.ipynb
+[W 2023-07-01 18:24:48.323 ServerApp] delete /Python_Hello_World.ipynb
+[W 2023-07-01 18:24:52.574 ServerApp] delete /index.ipynb
+[W 2023-07-01 18:24:56.857 ServerApp] delete /bash_Hello_World.ipynb
+[I 2023-07-01 18:28:38.044 ServerApp] Uploading file to /python_LinearRegression_model.html
+[I 2023-07-01 18:28:54.254 ServerApp] Creating new notebook in 
+[I 2023-07-01 18:28:55.410 ServerApp] Kernel started: c26178f5-2c24-4249-ae22-3064497470b1
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-07-01 18:28:56.500 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8348bad610>
+[I 2023-07-01 18:30:55.335 ServerApp] Saving file at /Untitled.ipynb
+[W 2023-07-01 18:36:38.375 ServerApp] delete /python_LinearRegression_model.html
+[I 2023-07-01 18:36:40.739 ServerApp] Creating new notebook in 
+[I 2023-07-01 18:36:41.690 ServerApp] Kernel started: bf437930-cf09-4228-87fd-f70a5fd0c954
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-07-01 18:36:42.710 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8348b2ef10>
+[I 2023-07-01 18:36:47.845 ServerApp] Starting buffering for bf437930-cf09-4228-87fd-f70a5fd0c954:968c0424-bafd-4de8-8c65-341b2b296ba0
+[W 2023-07-01 18:36:47.865 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8348b41fd0>
+[I 2023-07-01 18:36:51.101 ServerApp] Creating new notebook in 
+[I 2023-07-01 18:36:52.080 ServerApp] Kernel started: 65f707d0-1d0c-46fb-a9e4-dad94fb9dd49
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-07-01 18:36:53.056 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f834b4c7d50>
+[I 2023-07-01 18:36:55.218 ServerApp] Starting buffering for 65f707d0-1d0c-46fb-a9e4-dad94fb9dd49:b6ab4f97-6352-4255-b403-be538fdfa3d1
+[W 2023-07-01 18:36:55.237 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8348c80290>
+[I 2023-07-01 18:37:00.500 ServerApp] Kernel shutdown: 65f707d0-1d0c-46fb-a9e4-dad94fb9dd49
+[W 2023-07-01 18:37:01.213 ServerApp] delete /Untitled2.ipynb
+[I 2023-07-01 18:37:05.221 ServerApp] Kernel shutdown: bf437930-cf09-4228-87fd-f70a5fd0c954
+[W 2023-07-01 18:37:05.830 ServerApp] delete /Untitled1.ipynb
+[I 2023-07-01 18:37:09.338 ServerApp] New terminal with automatic name: 2
+[I 2023-07-01 18:40:56.034 ServerApp] Saving file at /Untitled.ipynb
+[I 2023-07-01 18:40:58.916 ServerApp] Uploading file to /regrex1.csv
+[I 2023-07-01 18:42:56.568 ServerApp] Saving file at /Untitled.ipynb
+[W 2023-07-01 18:46:01.610 ServerApp] 404 GET /binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/api/contents/Python_Linear_Regression_model.ipynb?1688237161538 (75.118.33.162): file or directory does not exist: 'Python_Linear_Regression_model.ipynb'
+[W 2023-07-01 18:46:01.611 ServerApp] wrote error: "file or directory does not exist: 'Python_Linear_Regression_model.ipynb'"
+[W 2023-07-01 18:46:01.612 ServerApp] 404 GET /binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/api/contents/Python_Linear_Regression_model.ipynb?1688237161538 (75.118.33.162) 3.41ms referer=https://notebooks.gesis.org/binder/jupyter/user/cquiles11-pytho-inearregression-q58m3dgm/lab/tree/Untitled.ipynb
+[I 2023-07-01 18:46:01.821 ServerApp] Uploading file to /Python_Linear_Regression_model.ipynb
+[I 2023-07-01 18:46:03.473 ServerApp] Kernel started: d51dc29a-9ef4-45d6-9b74-cbcdd00381fa
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-07-01 18:46:04.447 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f8349ede3d0>
+[I 2023-07-01 18:46:05.995 ServerApp] Starting buffering for c26178f5-2c24-4249-ae22-3064497470b1:b5d1a3d3-0c05-4e4e-af5e-ca7bd4af4b97
+[I 2023-07-01 18:46:09.178 ServerApp] Kernel shutdown: c26178f5-2c24-4249-ae22-3064497470b1
+[W 2023-07-01 18:46:10.294 ServerApp] delete /Untitled.ipynb
+[I 2023-07-01 18:46:41.431 ServerApp] Starting buffering for d51dc29a-9ef4-45d6-9b74-cbcdd00381fa:5e372b5d-2619-48b0-83d7-021fc0233603
