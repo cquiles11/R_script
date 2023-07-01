@@ -8,3 +8,5 @@
 .jupyter/
 .local/
 .profile
+.jupyter-server-log.txt
+.gitconfig
