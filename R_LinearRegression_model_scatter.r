@@ -15,6 +15,6 @@ ggplot() +
   xlab('x') +
   ylab('y')
 
-ggsave("R_linear_regression_scatter.png")
+ggsave("R_linear_regression_scatter.png", width=4, height=4)
 
 dev.off()
